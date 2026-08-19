@@ -13,8 +13,8 @@ function ExtensionsList(){
 return(
     <div className="flex flex-col gap-1">
 
-    <div className="flex items-center justify-between px-10 mt-5">
-    <h1 className=" text-xl font-bold ">Extensions List</h1>
+    <div className="flex items-center justify-between px-2 sm:px-10 mt-5 gap-1">
+    <h1 className=" text-sm sm:text-xl font-bold whitespace-nowrap ">Extensions List</h1>
     <div className="flex  gap-2 sm:gap-3 ">
      <Button title="All"/>
      <Button title="Active"/>
